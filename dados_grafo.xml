@@ -1,0 +1,31 @@
+<grafo>
+	<vertices>
+		<item id="1" latitude="-29.951916" longitude="-51.174333"
+			descricao="Primeiro de Maio - Venancio Aires"></item>
+		<item id="2" latitude="-29.950912" longitude="-51.174376"
+			descricao="Concordia - Venancio Aires" />
+		<item id="3" latitude="-29.946208" longitude="-51.174591"
+			descricao="Santos Dumont - Venancio Aires" />
+		<item id="4" latitude="-29.946134" longitude="-51.172402"
+			descricao="Santos Dumont - Lageado" />
+		<item id="5" latitude="-29.950856" longitude="-51.172091"
+			descricao="Concordia - Lageado" />
+		<item id="6" latitude="-29.949880" longitude="-51.172155"
+			descricao="Capistrano de Abreu - Lageado" />
+		<item id="7" latitude="-29.951805" longitude="-51.172048"
+			descricao="Primeiro de Maio - Lageado" />
+	</vertices>
+	<arestas>
+		<item origem="1" destino="2" custo="0" />
+		<item origem="2" destino="3" custo="0" />
+		<item origem="2" destino="5" custo="50" />
+		<item origem="3" destino="4" custo="0" />
+		<item origem="4" destino="6" custo="0" />
+		<item origem="5" destino="6" custo="0" />
+		<item origem="1" destino="7" custo="0" />
+		<item origem="7" destino="5" custo="15" />
+		<item origem="2" destino="6" custo="0" />
+		<item origem="3" destino="2" custo="0" />
+		<item origem="4" destino="3" custo="0" />
+	</arestas>
+</grafo>
