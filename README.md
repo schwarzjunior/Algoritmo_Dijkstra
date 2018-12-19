@@ -1,7 +1,7 @@
 # Desenvolvendo o algoritimo de Dijkstra
 
 <p align="center">
-   <img src="/Algoritmo_Dijkstra/Dijkstra_animation.gif" title="Animação do algoritmo de Dijkstra">
+   <img src="/Dijkstra_animation.gif" title="Animação do algoritmo de Dijkstra">
 </p>
 
 O **algoritmo de Dijkstra**, concebido pelo [cientista da computação](https://pt.wikipedia.org/wiki/Ci%C3%AAncia_da_computa%C3%A7%C3%A3o) holandês [Edsger Dijkstra](https://pt.wikipedia.org/wiki/Edsger_Dijkstra) em 1956 e publicado em 1059, soluciona o [problema do caminho mais curto](https://pt.wikipedia.org/wiki/Problema_do_caminho_mais_curto) num [grafo dirigido](https://pt.wikipedia.org/wiki/Grafo_dirigido) ou não dirigido com arestas de peso não negativo, em tempo computacional **O\(\[ m\+n \] log n\)** onde **m** é o número de arestas e **n** é o número de vértices. O algoritmo que serve para resolver o mesmo problema em um grafo com pesos negativos é o [algoritmo de Bellman-Ford](https://pt.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford), que possui maior tempo de execução que o Dijkstra.
