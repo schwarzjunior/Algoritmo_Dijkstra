@@ -42,7 +42,12 @@ public class AppDijkstra {
             int passo = 0;
             for (Vertice v : caminho) {
                 passo++;
-                System.out.println("Passo " + passo + " -> " + v.getId());
+                System.out.println("Passo " + passo + " -> "
+                        + "[ "
+                        + "ID: " + v.getId()
+                        + "    |    Descricao: " + v.getDescricao()
+                        + " ]"
+                );
             }
         }
 

@@ -56,7 +56,7 @@ public class LeitorXML {
                     Double.parseDouble(curElement.getAttribute("longitude")),
                     curElement.getAttribute("descricao")
             );
-            System.out.println("Novo Vertice: " + newVertice.getId());
+            /*System.out.println("Novo Vertice: " + newVertice.getId());*/
             grafo.insertVertice(newVertice);
         }
 
